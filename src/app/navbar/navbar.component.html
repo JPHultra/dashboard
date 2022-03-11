@@ -2,9 +2,9 @@
 
 </header>
 
-<div [ngClass]="hidden ? 'side-nav sn-hidden' : 'side-nav'" class="side-nav">
+<div [ngClass]="hidden ? 'sn-hidden' : 'side-nav'">
   <div class="sn-user-info">
-    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Image">
+    <img (click)="showHideSideNav();" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Image">
     <h5>{{user.name}}</h5>
     <p>Administrador</p>
   </div>
@@ -24,7 +24,7 @@
     <i class="bi bi-people"></i>
     <span> Users</span>
   </div>
-  <div (click)="showHideSideNav();" class="fixed-bottom bt-sn-item">
+  <div class="fixed-bottom bt-sn-item">
     <span>Copyright© 2022</span>
   </div>
 </div>

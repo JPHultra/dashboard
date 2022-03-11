@@ -8,7 +8,89 @@ header{
 }
 
 .sn-hidden{
+  display: flex;
+  flex-direction: column;
+
+  transition: 0.5s;
+
+  height: 100%;
+  position: fixed;
+  left: 0%;
+
   width: 50px;
+
+  background-color: lightgray;
+
+  .bt-sn-item{
+    font-size: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .sn-user-info{
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+
+    img{
+      max-width: 32px;
+      border-radius: 50%;
+      margin-bottom: 5px;
+
+      cursor: pointer;
+    }
+
+    h5{
+      display: none;
+      margin-bottom: 0px;
+    }
+
+    p{
+      display: none;
+    }
+  }
+
+  .sn-btn{
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-decoration: none;
+    color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    *{
+      transition: 0.5s;
+    }
+
+    &:hover{
+      cursor: pointer;
+
+      i{
+        transition: 0.5s;
+        color: #3e4896;
+      }
+
+      span{
+        transition: 0.5s;
+        display: none;
+      }
+    }
+
+    i{
+      font-size: 26px;
+    }
+  }
 }
 
 .side-nav{
