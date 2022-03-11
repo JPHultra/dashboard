@@ -11,7 +11,7 @@ export class AppComponent {
   logged = true;
   hidden = false;
 
-  evHidden(_hidden: Boolean){
+  evHidden(_hidden: boolean){
     this.hidden = _hidden;
   }
 }
