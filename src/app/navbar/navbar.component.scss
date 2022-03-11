@@ -15,10 +15,6 @@ $extra-large: 1200px;
 
   background-color: lightgray;
 
-  *{
-    white-space: nowrap;
-  }
-
   .bt-sn-item{
     font-size: 8px;
     margin-bottom: 15px;
@@ -168,7 +164,6 @@ $extra-large: 1200px;
 
     *{
       transition: 0.5s;
-      white-space: nowrap;
     }
 
     &:hover{
