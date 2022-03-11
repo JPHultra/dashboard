@@ -20,11 +20,15 @@ header{
   background-color: lightgray;
 
   .bt-sn-item{
-    font-size: 0px;
+    font-size: 8px;
     margin-bottom: 15px;
     text-align: center;
     left: -100px;
     transition: 0.5s;
+
+    span{
+      display: none;
+    }
 
   }
 
