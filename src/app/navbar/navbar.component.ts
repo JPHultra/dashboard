@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  hidden = false;
+
   user = {
     name: "João Gomes"
   }
@@ -14,6 +16,10 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  showHideSideNav() {
+    this.hidden = !this.hidden;
   }
 
 }
