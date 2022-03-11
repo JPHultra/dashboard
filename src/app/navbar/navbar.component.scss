@@ -56,6 +56,41 @@ header{
       display: none;
     }
   }
+
+  .sn-btn{
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-decoration: none;
+    color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    *{
+      transition: 0.5s;
+    }
+
+    &:hover{
+      cursor: pointer;
+
+      i{
+        transition: 0.5s;
+        color: #3e4896;
+      }
+
+      span{
+        transition: 0.5s;
+        display: none;
+      }
+    }
+
+    i{
+      font-size: 26px;
+    }
+  }
 }
 
 .side-nav{
