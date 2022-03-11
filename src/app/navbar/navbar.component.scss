@@ -29,7 +29,7 @@ header{
 
   .sn-user-info{
     width: 80%;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
     border-radius: 5px;
 
@@ -71,6 +71,10 @@ header{
 
     *{
       transition: 0.5s;
+    }
+
+    span{
+      display: none;
     }
 
     &:hover{
