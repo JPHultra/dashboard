@@ -24,18 +24,43 @@ header{
 
   @media screen and (max-width: $small) {
     width: 150px;
+
+    .bt-sn-item{
+      width: 150px;
+      text-align: center;
+    }
   }
   @media screen and (min-width: $small) {
     width: 200px;
+
+    .bt-sn-item{
+      width: 200px;
+      text-align: center;
+    }
   }
   @media screen and (min-width: $medium) {
     width: 200px;
+
+    .bt-sn-item{
+      width: 200px;
+      text-align: center;
+    }
   }
   @media screen and (min-width: $large) {
     width: 200px;
+
+    .bt-sn-item{
+      width: 200px;
+      text-align: center;
+    }
   }
   @media screen and (min-width: $extra-large) {
     width: 200px;
+
+    .bt-sn-item{
+      width: 200px;
+      text-align: center;
+    }
   }
 }
 
