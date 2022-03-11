@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
 
   hidden = false;
 
-  @Output() eventHidden = new EventEmitter<Boolean>();
+  @Output() eventHidden = new EventEmitter<boolean>();
 
   user = {
     name: "João Gomes"
