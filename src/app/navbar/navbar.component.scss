@@ -27,10 +27,10 @@ header{
     width: 200px;
   }
   @media screen and (min-width: $large) {
-    width: 300px;
+    width: 200px;
   }
   @media screen and (min-width: $extra-large) {
-    width: 300px;
+    width: 200px;
   }
 }
 
@@ -76,7 +76,7 @@ header{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  
+
   *{
     transition: 0.5s;
   }
