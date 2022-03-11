@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'dashboard';
   logged = true;
+  hidden = false;
+
+  evHidden(_hidden: Boolean){
+    this.hidden = _hidden;
+  }
 }
