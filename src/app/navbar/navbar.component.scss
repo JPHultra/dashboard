@@ -4,7 +4,7 @@ $large: 992px;
 $extra-large: 1200px;
 
 header{
-  
+
 }
 
 .side-nav{
@@ -50,6 +50,11 @@ header{
     max-width: 86px;
     border-radius: 50%;
     margin-bottom: 5px;
+  }
+
+  p{
+    margin-top: 2px;
+    color: gray;
   }
 }
 
