@@ -3,10 +3,6 @@ $medium: 768px;
 $large: 992px;
 $extra-large: 1200px;
 
-header{
-
-}
-
 .sn-hidden{
   display: flex;
   flex-direction: column;
@@ -91,7 +87,7 @@ header{
       i{
         transition: 0.5s;
         color: #3e4896;
-        font-size: 30px;
+        font-size: 32px;
       }
 
       span{
