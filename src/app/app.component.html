@@ -1,3 +1,3 @@
 <app-navbar (eventHidden)="evHidden($event)" *ngIf="logged"></app-navbar>
-<h1>Olá</h1>
+<h1 [ngClass]="hidden ? 'whidden' : 'wohidden'">Olá</h1>
 <router-outlet [ngClass]="hidden ? 'whidden' : 'wohidden'"></router-outlet>
