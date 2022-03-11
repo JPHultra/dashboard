@@ -17,6 +17,11 @@ header{
 
   background-color: lightgray;
 
+  .bt-sn-item{
+    width: 100%;
+    text-align: center;
+  }
+
   @media screen and (max-width: $small) {
     width: 150px;
   }
@@ -32,11 +37,6 @@ header{
   @media screen and (min-width: $extra-large) {
     width: 200px;
   }
-}
-
-.bt-sn-item{
-  width: 100%;
-  text-align: center;
 }
 
 .sn-user-info{
