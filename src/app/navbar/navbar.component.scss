@@ -17,11 +17,6 @@ header{
 
   background-color: lightgray;
 
-  &:hover{
-    border: solid;
-    border-left: 1px;
-  }
-
   @media screen and (max-width: $small) {
     width: 150px;
   }
@@ -85,6 +80,7 @@ header{
 
   &:hover{
     background-color: lightblue;
+    border-left: solid 1px;
     cursor: pointer;
   }
 
